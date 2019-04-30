@@ -13,26 +13,26 @@ public class OtherAnimalsTest {
 
     @Test
     public void OtherAnimals_instantiatesCorrectly_false() {
-        OtherAnimals testOtherAnimals = new OtherAnimals("Deer");
+        OtherAnimals testOtherAnimals = new OtherAnimals("koala");
         assertEquals(true, testOtherAnimals instanceof OtherAnimals);
     }
 
     @Test
     public void getName_OtherAnimalsInstantiatesWithName_Deer() {
-        OtherAnimals testOtherAnimals = new OtherAnimals("Deer");
+        OtherAnimals testOtherAnimals = new OtherAnimals("koala");
         assertEquals("Deer", testOtherAnimals.getName());
     }
 
     @Test
     public void equals_returnsTrueIfNameIsTheSame_false() {
-        OtherAnimals firstOtherAnimals = new OtherAnimals("Deer");
-        OtherAnimals anotherOtherAnimals = new OtherAnimals("Deer");
+        OtherAnimals firstOtherAnimals = new OtherAnimals("koala");
+        OtherAnimals anotherOtherAnimals = new OtherAnimals("koala");
         assertTrue(firstOtherAnimals.equals(anotherOtherAnimals));
     }
 
     @Test
     public void save_assignsIdToObjectAndSavesObjectToDatabase() {
-        OtherAnimals testOtherAnimals = new OtherAnimals("Deer");
+        OtherAnimals testOtherAnimals = new OtherAnimals("koala");
         testOtherAnimals.save();
         OtherAnimals savedOtherAnimals = OtherAnimals.all().get(0);
         assertEquals(testOtherAnimals.getId(), savedOtherAnimals.getId());
@@ -40,9 +40,9 @@ public class OtherAnimalsTest {
 
     @Test
     public void all_returnsAllInstancesOfOtherAnimals_false() {
-        OtherAnimals firstOtherAnimals = new OtherAnimals("Deer");
+        OtherAnimals firstOtherAnimals = new OtherAnimals("koala");
         firstOtherAnimals.save();
-        OtherAnimals secondOtherAnimals = new OtherAnimals("Black Bear");
+        OtherAnimals secondOtherAnimals = new OtherAnimals("koala");
         secondOtherAnimals.save();
         assertEquals(true, OtherAnimals.all().get(0).equals(firstOtherAnimals));
         assertEquals(true, OtherAnimals.all().get(1).equals(secondOtherAnimals));
