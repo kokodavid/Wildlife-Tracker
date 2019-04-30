@@ -57,6 +57,14 @@ public class App {
             response.redirect("/");
             return null;
         });
+        get("/sightings", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("animals", OtherAnimals.all());
+            model.put("endangeredAnimals", EndangeredAnimal.all());
+            model.put("sightings", Sighting.all());
+            model.put("template", "templates/sightings.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
 
     }
 }
