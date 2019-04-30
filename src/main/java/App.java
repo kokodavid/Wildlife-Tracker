@@ -39,7 +39,7 @@ public class App {
         }, new VelocityTemplateEngine());
 
 
-        post("/animal/new", (request, response) -> {
+        post("/animals/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             boolean endangered = request.queryParamsValues("endangered")!=null;
             if (endangered) {
