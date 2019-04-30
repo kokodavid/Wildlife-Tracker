@@ -8,7 +8,7 @@ in keeping track of the animal.
 
 ### By David Mochoge
 
-##Setup/Installation Requirements
+## Setup/Installation Requirements
 <ul>
 <li>Download/clone Repo.</li>
 <li>open with your text editor of choice.</li>
