@@ -24,3 +24,27 @@ In PSQL:
 * CREATE TABLE sightings (id serial PRIMARY KEY, animal_id int, location varchar, ranger_name varchar);
 * CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker;
 
+## Known Bugs
+The application is still under development their might be severall bugs.
+
+## Technologies and languages
+This application was written using Java programming language.
+<ul>
+ <li>Java development kit (Java SDK) - for creating the application</li>
+<li>Java Runtime Environment (JRE) - for executing the application</li>
+<li> Sublime text - Text editor</li>
+<li> Gradle - build tool</li>
+<li> Git - version control environment</li>
+<li>Spark - web framework.</li>
+<li>Postgres SQL - Database</li>
+</ul>
+
+## Support and contact details
+Contact the developer through
+<ul>
+<li>TEL;0770057240</li>
+<li>EMAIL:kingkgdave@gmail.com</li>
+
+### License
+*Licenced under the MIT Licence
+Copyright (c) 2019 **KOKOCITY WEB**
