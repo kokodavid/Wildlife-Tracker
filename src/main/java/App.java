@@ -28,6 +28,13 @@ public class App {
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
+        get("/animal/new", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            model.put("endangeredAnimals", EndangeredAnimal.all());
+            model.put("template", "templates/animal-form.vtl");
+            return new ModelAndView(model, layout);
+        }, new VelocityTemplateEngine());
+
 
     }
 }
