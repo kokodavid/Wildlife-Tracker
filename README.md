@@ -7,3 +7,19 @@ are of the endangered species.The application has the Sightings section where th
 in keeping track of the animal.
 
 ### By David Mochoge
+
+##Setup/Installation Requirements
+1.Download/clone Repo.
+2.open with your text editor of choice.
+3.Google chrome or any browser.
+
+
+#### To re-create the database, follow these steps;
+In PSQL:
+* CREATE DATABASE wildlife_tracker;
+* \c wildlife_tracker;
+* CREATE TABLE animals (id serial PRIMARY KEY, name varchar);
+* CREATE TABLE endangered_animals (id serial PRIMARY KEY, name varchar, health varchar, age varchar);
+* CREATE TABLE sightings (id serial PRIMARY KEY, animal_id int, location varchar, ranger_name varchar);
+* CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker;
+
