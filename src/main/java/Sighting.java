@@ -57,4 +57,27 @@ public class Sighting {
                     .getKey();
         }
     }
+
+    public static List<Sighting> all() {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM sightings;";
+            return con.createQuery(sql)
+                    .throwOnMappingFailure(false)
+                    .executeAndFetch(Sighting.class);
+        }
+    }
+
+    public static Sighting find(int id) {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM sightings WHERE id=:id;";
+            Sighting sighting = con.createQuery(sql)
+                    .addParameter("id", id)
+                    .executeAndFetchFirst(Sighting.class);
+            return sighting;
+        } catch (IndexOutOfBoundsException exception) {
+            return null;
+        }
+    }
+
+
 }

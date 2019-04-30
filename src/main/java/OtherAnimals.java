@@ -14,8 +14,8 @@ public class OtherAnimals extends Animal {
         if (!(otherAnimal instanceof Animal)) {
             return false;
         } else {
-            Animal newAnimal = (Animal) otherAnimal;
-            return this.getName().equals(newAnimal.getName());
+            OtherAnimals newOtherAnimals = (OtherAnimals) otherAnimal;
+            return this.getName().equals(newOtherAnimals.getName());
         }
     }
 
