@@ -36,5 +36,27 @@ public class App {
         }, new VelocityTemplateEngine());
 
 
+        post("/animal/new", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            boolean endangered = request.queryParamsValues("endangered")!=null;
+            if (endangered) {
+                String name = request.queryParams("name");
+                String health = request.queryParams("health");
+                String age = request.queryParams("age");
+                String type = request.queryParams("type");
+                EndangeredAnimal endangeredAnimal = new EndangeredAnimal(name,type, health, age);
+                endangeredAnimal.save();
+                model.put("endangeredAnimals", EndangeredAnimal.all());
+            } else {
+                String name = request.queryParams("name");
+                OtherAnimals OtherAnimals = new OtherAnimals(name);
+                OtherAnimals.save();
+                model.put("OtherAnimals", OtherAnimals.all());
+                model.put("endangeredAnimals", EndangeredAnimal.all());
+            }
+            response.redirect("/");
+            return null;
+        });
+
     }
 }
