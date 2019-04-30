@@ -36,4 +36,15 @@ public class OtherAnimals extends Animal {
                     .executeAndFetch(OtherAnimals.class);
         }
     }
+
+    public static OtherAnimals find(int id) {
+        try(Connection con = DB.sql2o.open()) {
+            String sql = "SELECT * FROM animals WHERE id=:id;";
+            OtherAnimals OtherAnimals = con.createQuery(sql)
+                    .addParameter("id", id)
+                    .executeAndFetchFirst(OtherAnimals.class);
+            return OtherAnimals;
+        }
+    }
+
 }

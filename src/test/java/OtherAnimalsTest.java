@@ -48,4 +48,13 @@ public class OtherAnimalsTest {
         assertEquals(true, OtherAnimals.all().get(1).equals(secondOtherAnimals));
     }
 
+    @Test
+    public void find_returnsAnimalWithSameId_secondAnimal() {
+        OtherAnimals firstOtherAnimals = new OtherAnimals("Koala");
+        firstOtherAnimals.save();
+        OtherAnimals secondOtherAnimals = new OtherAnimals("koala");
+        secondOtherAnimals.save();
+        assertEquals(OtherAnimals.find(secondOtherAnimals.getId()), secondOtherAnimals);
+    }
+
 }

@@ -3,25 +3,38 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-    <link rel='stylesheet' href="/app.css">
-  </head>
+   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+           <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">
+           <script
+                  src="https://code.jquery.com/jquery-3.4.0.min.js"
+                integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+             crossorigin="anonymous"></script>
+          <link rel='stylesheet' href='/app.css'>
+            </head>
       <body style="background:url(https://wallup.net/wp-content/uploads/2016/01/231260-elephants-animals-African-nature-grass-savannah-overcast-wildlife-photography.jpg)">
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Wildlife Tracker</h1>
-        #if($rangerName)
-          <div class="link-bar">
-            <div><p><a href="/">Home</a></p></div>
-            <div><p><a href="/sightings">All Sightings</a></p></div>
-            <div><p><a href="/sightings/new">Add Sighting</p></a></div>
-            <div><p><a href="/animals">All Animals</a></p></div>
-            <div><p><a href="/animals/new">Add Animals</a></p></div>
-            <div><p><a href="/logout">Log out</a></p></div>
-          </div>
-          #end
-      </div>
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1">
+   <a class="navbar-brand" href="#">Navbar</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarNav">
+
+         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+
+
+         <a class="nav-link" href="/animal/new">Add Animal</a>
+
+
+         <a class="nav-link" href="#">Record Sighting</a>
+
+
+         <a class="nav-link disabled" href="#">Disabled</a>
+
+
+
+ </nav>
+
       #parse( $template )
 
     </div>
