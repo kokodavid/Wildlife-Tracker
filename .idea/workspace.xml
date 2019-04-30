@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e78f034-a617-43f1-ac2d-d3c2dcde99dc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/out/test/classes/SightingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OtherAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OtherAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sighting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sighting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SightingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SightingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/animal.vtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/endangered-animal.vtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/success.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -31,11 +33,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Sighting.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Sighting.java">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1065">
-              <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="1172">
+              <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#739#755#0" expanded="true" />
+                <element signature="e#1083#1099#0" expanded="true" />
+                <element signature="e#1435#1451#0" expanded="true" />
+                <element signature="e#3086#3102#0" expanded="true" />
+                <element signature="e#3507#3523#0" expanded="true" />
+                <element signature="e#4032#4048#0" expanded="true" />
+                <element signature="e#4877#4893#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.vtl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.vtl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="endangered-animal.vtl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/endangered-animal.vtl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animal.vtl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/animal.vtl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OtherAnimals.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OtherAnimals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,14 +91,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SightingTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SightingTest.java">
+      <file leaf-file-name="EndangeredAnimal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EndangeredAnimal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+            <state relative-caret-position="650">
+              <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Animal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -438,17 +497,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/animal-form.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sighting-form.vtl" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/OtherAnimalsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DatabaseRule.java" />
         <option value="$PROJECT_DIR$/src/main/java/DB.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EndangeredAnimal.java" />
         <option value="$PROJECT_DIR$/src/test/java/EndangeredAnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/OtherAnimals.java" />
         <option value="$PROJECT_DIR$/src/main/java/Sighting.java" />
         <option value="$PROJECT_DIR$/src/test/java/SightingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EndangeredAnimal.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/animal.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/endangered-animal.vtl" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/success.vtl" />
       </list>
     </option>
   </component>
@@ -717,21 +780,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EndangeredAnimalTest - 2019.04.30 at 16h 45m 48s.xml">
-      <configuration name="EndangeredAnimalTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EndangeredAnimalTest - 2019.04.30 at 17h 19m 46s.xml">
-      <configuration name="EndangeredAnimalTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OtherAnimalsTest - 2019.04.30 at 17h 20m 47s.xml">
-      <configuration name="OtherAnimalsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OtherAnimalsTest_save_assignsIdToObjectAndSavesObjectToDatabase - 2019.04.30 at 17h 35m 25s.xml">
-      <configuration name="OtherAnimalsTest.save_assignsIdToObjectAndSavesObjectToDatabase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OtherAnimalsTest_save_assignsIdToObjectAndSavesObjectToDatabase - 2019.04.30 at 17h 36m 09s.xml">
-      <configuration name="OtherAnimalsTest.save_assignsIdToObjectAndSavesObjectToDatabase" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SightingTest - 2019.04.30 at 21h 32m 35s.xml">
       <configuration name="SightingTest" configurationId="JUnit" />
     </history-entry>
@@ -747,10 +795,24 @@
     <history-entry file="SightingTest_save_insertsObjectIntoDatabase_Sighting - 2019.04.30 at 21h 42m 44s.xml">
       <configuration name="SightingTest.save_insertsObjectIntoDatabase_Sighting" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SightingTest_save_insertsObjectIntoDatabase_Sighting - 2019.04.30 at 21h 44m 30s.xml">
+      <configuration name="SightingTest.save_insertsObjectIntoDatabase_Sighting" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SightingTest_save_insertsObjectIntoDatabase_Sighting - 2019.04.30 at 21h 46m 51s.xml">
+      <configuration name="SightingTest.save_insertsObjectIntoDatabase_Sighting" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SightingTest_save_insertsObjectIntoDatabase_Sighting - 2019.04.30 at 21h 46m 54s.xml">
+      <configuration name="SightingTest.save_insertsObjectIntoDatabase_Sighting" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SightingTest - 2019.04.30 at 21h 47m 03s.xml">
+      <configuration name="SightingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SightingTest_all_returnsAllInstancesOfSighting_true - 2019.04.30 at 21h 48m 07s.xml">
+      <configuration name="SightingTest.all_returnsAllInstancesOfSighting_true" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1600" height="860" extended-state="6" />
-    <editor active="true" />
+    <frame x="821" y="2" width="779" height="858" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -760,21 +822,21 @@
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42896175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.01369863" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.19452055" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.58356166" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23055935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.159618" />
       <window_info anchor="bottom" id="Build" weight="0.32968536" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24965894" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.77397263" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
@@ -820,6 +882,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
       <option name="time" value="6" />
     </breakpoint-manager>
   </component>
@@ -884,19 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#739#755#0" expanded="true" />
-            <element signature="e#1083#1099#0" expanded="true" />
-            <element signature="e#1435#1451#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,20 +1019,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EndangeredAnimal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Sighting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1065">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OtherAnimals.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SightingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="111">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -994,22 +1046,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Sighting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/OtherAnimals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="360">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SightingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/EndangeredAnimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+        <state relative-caret-position="650">
+          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/animal.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/sightings.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/endangered-animal.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1172">
+          <caret line="117" column="5" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#739#755#0" expanded="true" />
+            <element signature="e#1083#1099#0" expanded="true" />
+            <element signature="e#1435#1451#0" expanded="true" />
+            <element signature="e#3086#3102#0" expanded="true" />
+            <element signature="e#3507#3523#0" expanded="true" />
+            <element signature="e#4032#4048#0" expanded="true" />
+            <element signature="e#4877#4893#0" expanded="true" />
           </folding>
         </state>
       </provider>
