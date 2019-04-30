@@ -49,7 +49,7 @@ public class EndangeredAnimal extends Animal {
 
     public void save() {
         try(Connection con = DB.sql2o.open()) {
-            String sql = "INSERT INTO animals (name, health, age) VALUES (:name, :health, :age);";
+            String sql = "INSERT INTO endangered_animals (name, health, age) VALUES (:name, :health, :age);";
             this.id = (int) con.createQuery(sql, true)
                     .addParameter("name", this.name)
                     .addParameter("health", this.health)
@@ -61,7 +61,7 @@ public class EndangeredAnimal extends Animal {
 
     public static List<EndangeredAnimal> all() {
         try(Connection con = DB.sql2o.open()) {
-            String sql = "SELECT * FROM animals;";
+            String sql = "SELECT * FROM endangered_animals;";
             return con.createQuery(sql)
                     .executeAndFetch(EndangeredAnimal.class);
         }

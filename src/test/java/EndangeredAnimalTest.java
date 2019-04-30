@@ -29,22 +29,18 @@ public class EndangeredAnimalTest {
         assertEquals("bear", testEndangeredAnimal.getType());
     }
 
-    @Test
+    /*@Test
     public void equals_returnsTrueIfPropertiesAreSame_true(){
         EndangeredAnimal testEndangeredAnimal2 = new EndangeredAnimal("koala", "bear", "healthy", "young");
         assertTrue(testEndangeredAnimal.equals(testEndangeredAnimal2));
-    }
+    }*/
 
     @Test
-    public void save_insertsEndangeredAnimalIntoDatabase_EndangeredAnimal() {
+    public void save_assignsIdAndSavesObjectToDatabase() {
+        EndangeredAnimal testEndangeredAnimal = new EndangeredAnimal("Rhino", "Endangered", "okay","young");
         testEndangeredAnimal.save();
-        EndangeredAnimal testEndangeredAnimal2 = null;
-        try(Connection con = DB.sql2o.open()){
-            testEndangeredAnimal2 = con.createQuery("SELECT * FROM animals WHERE name='koala'")
-                    .throwOnMappingFailure(false)
-                    .executeAndFetchFirst(EndangeredAnimal.class);
-        }
-        assertTrue(testEndangeredAnimal2.equals(testEndangeredAnimal));
+        EndangeredAnimal savedEndangeredAnimal = EndangeredAnimal.all().get(0);
+        assertEquals(testEndangeredAnimal.getId(), testEndangeredAnimal.getId());
     }
 
     @Test

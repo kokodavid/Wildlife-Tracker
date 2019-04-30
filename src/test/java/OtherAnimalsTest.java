@@ -18,9 +18,9 @@ public class OtherAnimalsTest {
     }
 
     @Test
-    public void getName_OtherAnimalsInstantiatesWithName_Deer() {
+    public void getName_OtherAnimalsInstantiatesWithName_koala() {
         OtherAnimals testOtherAnimals = new OtherAnimals("koala");
-        assertEquals("Deer", testOtherAnimals.getName());
+        assertEquals("koala", testOtherAnimals.getName());
     }
 
     @Test
