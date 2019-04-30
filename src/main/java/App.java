@@ -57,12 +57,11 @@ public class App {
             response.redirect("/");
             return null;
         });
-        get("/sightings", (request, response) -> {
+        get("/sighting", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             model.put("animals", OtherAnimals.all());
             model.put("endangeredAnimals", EndangeredAnimal.all());
-            model.put("sightings", Sighting.all());
-            model.put("template", "templates/sightings.vtl");
+            model.put("template", "templates/sighting-form.vtl");
             return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
 
