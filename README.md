@@ -9,9 +9,10 @@ in keeping track of the animal.
 ### By David Mochoge
 
 ##Setup/Installation Requirements
-1.Download/clone Repo.
-2.open with your text editor of choice.
-3.Google chrome or any browser.
+<ul>
+<li>Download/clone Repo.</li>
+<li>open with your text editor of choice.</li>
+<li>Google chrome or any browser.</li>
 
 
 #### To re-create the database, follow these steps;
