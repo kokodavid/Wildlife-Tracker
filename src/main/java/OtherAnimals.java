@@ -29,11 +29,11 @@ public class OtherAnimals extends Animal {
         }
     }
 
-    public static List<Animal> all() {
+    public static List<OtherAnimals> all() {
         try (Connection con = DB.sql2o.open()) {
             String sql = "SELECT * FROM animals;";
             return con.createQuery(sql)
-                    .executeAndFetch(Animal.class);
+                    .executeAndFetch(OtherAnimals.class);
         }
     }
 }
