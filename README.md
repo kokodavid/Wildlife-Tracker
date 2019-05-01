@@ -25,7 +25,7 @@ In PSQL:
 * CREATE DATABASE wildlife_tracker_test WITH TEMPLATE wildlife_tracker;
 
 ## Known Bugs
-The application is still under development their might be severall bugs.
+The application is still under development their might be ferw bugs.
 
 ## Technologies and languages
 This application was written using Java programming language.

@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e78f034-a617-43f1-ac2d-d3c2dcde99dc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/public/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/animal-form.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/animal-form.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/sightings.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/sightings.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/animal-form.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/animal-form.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" afterDir="false" />
-    </list>
+    <list default="true" id="8e78f034-a617-43f1-ac2d-d3c2dcde99dc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,25 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout.vtl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -121,8 +84,8 @@
       <file leaf-file-name="success.vtl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="15">
+              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -537,13 +500,13 @@
         <option value="$PROJECT_DIR$/src/main/java/EndangeredAnimal.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/animal.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/endangered-animal.vtl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/success.vtl" />
         <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sightings.vtl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/animal-form.vtl" />
-        <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/public/app.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/success.vtl" />
+        <option value="$PROJECT_DIR$/src/main/resources/public/app.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.vtl" />
       </list>
     </option>
@@ -852,7 +815,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1600" height="860" extended-state="6" />
+    <frame x="821" y="0" width="779" height="860" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -864,10 +827,10 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.01369863" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49931788" visible="true" weight="0.43032786" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49931788" visible="true" weight="0.29234973" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06821107" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.036834925" />
       <window_info anchor="bottom" id="Build" weight="0.32968536" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="right" id="Gradle" order="4" />
@@ -1091,13 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.vtl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -1143,13 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1157,10 +1106,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/success.vtl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/public/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="79" column="6" selection-start-line="79" selection-start-column="6" selection-end-line="79" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout.vtl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="37" />
         </state>
       </provider>
     </entry>
