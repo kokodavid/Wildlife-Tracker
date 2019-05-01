@@ -10,3 +10,73 @@ h2{
  font-size: 16px;
  line-height: 25px;
 }
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption div {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.trickcenter {
+    position: fixed;
+    top: 84%; // 50% for perfect centering
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+color: green;
+}
+
+h2{
+  color:pink;
+}
+
+h3{
+color:pink;
+}
+
+.card{
+  background-image: url('https://wallpaperaccess.com/full/398963.jpg');
+
+}
+
+body {
+  margin: 0;
+  background: #000;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+p{
+color:white;
+}
+
